@@ -31,7 +31,7 @@ export default function About() {
           React, Next.js, Node.js, and MongoDB
         </span>
         . I&apos;ve got a solid grip on{" "}
-        <span className="font-medium">JavaScript, Python, and C++</span>. I am
+        <span className="font-medium">JavaScript, Python</span>. I am
         also familiar with TypeScript. I am always looking to learn new
         technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software

@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import portfolio from "@/public/portfolio.png";
+import pictureGenerator from "@/public/pictureGenerator.png";
+import yappmart from "@/public/yappmart.png";
 
 export const links = [
   {
@@ -22,10 +22,6 @@ export const links = [
   {
     name: "Skills",
     hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
   },
   {
     name: "Contact",
@@ -62,29 +58,34 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Portfolio",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This is my portfolio project where i have presented myself and used all the cutting-edge modern technologies.",
+    tags: ["Next.js","React", "Tailwind CSS", "Framer motion" ,"React Email & Resend"],
+    imageUrl: portfolio,
+    link:"https://rafin-portfolio.vercel.app/"
   },
   {
-    title: "rmtDev",
+    title: "Picture Generator",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Built DALL-E-like image generator which creates unique and creative images based on user input.",
+    tags: ["Next.js","React", "OPEN AI API", "Machine Learning"],
+    imageUrl: pictureGenerator,
+    link:"https://picture-generator-rafinkhan.vercel.app/"
   },
   {
-    title: "Word Analytics",
+    title: "Yappmart",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Developed Yappmart shopping software which serves both the customers and shop-keepers and ensured scalability, security, and optimal performance.",
+    tags: ["JavaFX", "Scene Builder", "MSSQL", "Authentication"],
+    imageUrl: yappmart,
+    link:"https://github.com/Rafin298/Yappmart-Shop-management-system-using-javafx-and-mssql"
   },
 ] as const;
 
 export const skillsData = [
+  "Python",
+  "C++",
   "HTML",
   "CSS",
   "JavaScript",
@@ -94,14 +95,9 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "SQL",
   "Framer Motion",
+  "Linux"
 ] as const;
