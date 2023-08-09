@@ -69,7 +69,7 @@ export const projectsData = [
     title: "Picture Generator",
     description:
       "Built DALL-E-like image generator which creates unique and creative images based on user input.",
-    tags: ["Next.js","React", "OPEN AI API", "Machine Learning"],
+    tags: ["Next.js","React", "OPEN AI API","Typescript", "Machine Learning"],
     imageUrl: pictureGenerator,
     link:"https://picture-generator-rafinkhan.vercel.app/"
   },
