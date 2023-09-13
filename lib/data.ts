@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import portfolio from "@/public/portfolio.png";
 import pictureGenerator from "@/public/pictureGenerator.png";
 import yappmart from "@/public/yappmart.png";
+import nature from "@/public/nature.png";
 
 export const links = [
   {
@@ -81,6 +82,14 @@ export const projectsData = [
     imageUrl: yappmart,
     link:"https://github.com/Rafin298/Yappmart-Shop-management-system-using-javafx-and-mssql"
   },
+  {
+    title: "Nature-adventure",
+    description:
+      "Developed Nature-adventure api where users can login and signup and use crud operations on tours api.",
+    tags: ["NodeJS", "ExpressJS", "MongoDB","Mongoose", "Authentication"],
+    imageUrl: nature,
+    link:"https://github.com/Rafin298/nature-adventure"
+  }
 ] as const;
 
 export const skillsData = [
