@@ -6,6 +6,7 @@ import portfolio from "@/public/portfolio.png";
 import pictureGenerator from "@/public/pictureGenerator.png";
 import yappmart from "@/public/yappmart.png";
 import nature from "@/public/nature.png";
+import Inventory from "@/public/Inventory.png";
 
 export const links = [
   {
@@ -89,6 +90,14 @@ export const projectsData = [
     tags: ["NodeJS", "ExpressJS", "MongoDB","Mongoose", "Authentication"],
     imageUrl: nature,
     link:"https://github.com/Rafin298/nature-adventure"
+  },
+  {
+    title: "FinWeb - Inventory Management",
+    description:
+      "Developed Nature-adventure api where users can login and signup and use crud operations on tours api.",
+    tags: ["ASP.NET Core v8.0.0", "Entity Framework", "SQL","Azure"],
+    imageUrl: Inventory,
+    link:"https://finwebb.azurewebsites.net/Category"
   }
 ] as const;
 
