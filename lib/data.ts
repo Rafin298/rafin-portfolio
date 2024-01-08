@@ -94,7 +94,7 @@ export const projectsData = [
   {
     title: "FinWeb - Inventory Management",
     description:
-      "Developed Nature-adventure api where users can login and signup and use crud operations on tours api.",
+      "Developed Inventory management using ASP.NET Core and Deployed using Microsoft Azure.",
     tags: ["ASP.NET Core v8.0.0", "Entity Framework", "SQL","Azure"],
     imageUrl: Inventory,
     link:"https://finwebb.azurewebsites.net/Category"
