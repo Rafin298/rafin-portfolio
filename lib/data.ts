@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import portfolio from "@/public/portfolio.png";
-import pictureGenerator from "@/public/pictureGenerator.png";
+import chat_web from "@/public/chat-web.png";
 import yappmart from "@/public/yappmart.png";
 import nature from "@/public/nature.png";
 import Inventory from "@/public/Inventory.png";
@@ -60,6 +60,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Chat-Web",
+    description:
+      "Built chatting app where users can do group and private chats with image sending functionality.",
+    tags: ["Python","Django", "Channels","Websocket", "PostgreSQL"],
+    imageUrl: chat_web,
+    link:"https://chat-web-agjq.onrender.com/"
+  },
+  {
     title: "Portfolio",
     description:
       "This is my portfolio project where i have presented myself and used all the cutting-edge modern technologies.",
@@ -68,36 +76,12 @@ export const projectsData = [
     link:"https://rafin-portfolio.vercel.app/"
   },
   {
-    title: "Picture Generator",
-    description:
-      "Built DALL-E-like image generator which creates unique and creative images based on user input.",
-    tags: ["Next.js","React", "OPEN AI API","Typescript", "Machine Learning"],
-    imageUrl: pictureGenerator,
-    link:"https://picture-generator-rafinkhan.vercel.app/"
-  },
-  {
-    title: "Yappmart",
-    description:
-      "Developed Yappmart shopping software which serves both the customers and shop-keepers and ensured scalability, security, and optimal performance.",
-    tags: ["JavaFX", "Scene Builder", "MSSQL", "Authentication"],
-    imageUrl: yappmart,
-    link:"https://github.com/Rafin298/Yappmart-Shop-management-system-using-javafx-and-mssql"
-  },
-  {
     title: "Nature-adventure",
     description:
       "Developed Nature-adventure api where users can login and signup and use crud operations on tours api.",
     tags: ["NodeJS", "ExpressJS", "MongoDB","Mongoose", "Authentication"],
     imageUrl: nature,
     link:"https://github.com/Rafin298/nature-adventure"
-  },
-  {
-    title: "FinWeb - Inventory Management",
-    description:
-      "Developed Inventory management using ASP.NET Core and Deployed using Microsoft Azure.",
-    tags: ["ASP.NET Core v8.0.0", "Entity Framework", "SQL","Azure"],
-    imageUrl: Inventory,
-    link:"https://finwebb.azurewebsites.net/Category"
   }
 ] as const;
 

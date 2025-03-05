@@ -28,10 +28,10 @@ export default function About() {
         is solving problems. It&apos;s like cracking a tough nut and the feeling is
         amazing. When it comes to the techie stuff,my main tools are{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Python, Django, Websocket and SQL
         </span>
         . I&apos;ve got a solid grip on{" "}
-        <span className="font-medium">JavaScript, Python</span>. I am
+        <span className="font-medium">JavaScript, NodeJS, NextJS</span>. I am
         also familiar with TypeScript. I am always looking to learn new
         technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
