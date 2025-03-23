@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import portfolio from "@/public/portfolio.png";
 import chat_web from "@/public/chat-web.png";
 import yappmart from "@/public/yappmart.png";
-import nature from "@/public/nature.png";
+import foodrecipe from "@/public/foodrecipe2.png";
 import Inventory from "@/public/Inventory.png";
 
 export const links = [
@@ -16,6 +16,10 @@ export const links = [
   {
     name: "About",
     hash: "#about",
+  },
+  {
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Projects",
@@ -68,21 +72,22 @@ export const projectsData = [
     link:"https://chat-web-agjq.onrender.com/"
   },
   {
+    title: "Food Recipe Api",
+    description:
+      "Developed food recipe api and deployed using Docker, aws ec2 and github actions with unit tests.",
+    tags: ["Python","Django", "PostgreSQL", "Docker", "AWS EC2", "Github Actions"],
+    imageUrl: foodrecipe,
+    link:"http://ec2-13-211-197-180.ap-southeast-2.compute.amazonaws.com/api/docs/"
+  },
+  {
     title: "Portfolio",
     description:
       "This is my portfolio project where i have presented myself and used all the cutting-edge modern technologies.",
     tags: ["Next.js","React", "Tailwind CSS", "Framer motion" ,"React Email & Resend"],
     imageUrl: portfolio,
     link:"https://rafin-portfolio.vercel.app/"
-  },
-  {
-    title: "Nature-adventure",
-    description:
-      "Developed Nature-adventure api where users can login and signup and use crud operations on tours api.",
-    tags: ["NodeJS", "ExpressJS", "MongoDB","Mongoose", "Authentication"],
-    imageUrl: nature,
-    link:"https://github.com/Rafin298/nature-adventure"
   }
+  
 ] as const;
 
 export const skillsData = [
