@@ -101,5 +101,8 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
-  "Linux"
+  "Linux",
+  "Docker",
+  "AWS",
+  "Github Actions",
 ] as const;
