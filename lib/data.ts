@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import portfolio from "@/public/portfolio.png";
-import ielts from "@/public/chat-web.png";
+import ielts from "@/public/ielts.png";
 import yappmart from "@/public/yappmart.png";
 import foodrecipe from "@/public/foodrecipe2.png";
 import Inventory from "@/public/Inventory.png";
