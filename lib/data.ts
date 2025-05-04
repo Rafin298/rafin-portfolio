@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import portfolio from "@/public/portfolio.png";
-import chat_web from "@/public/chat-web.png";
+import ielts from "@/public/chat-web.png";
 import yappmart from "@/public/yappmart.png";
 import foodrecipe from "@/public/foodrecipe2.png";
 import Inventory from "@/public/Inventory.png";
@@ -64,12 +64,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Chat-Web",
+    title: "IELTS Speaking Mock Test AI",
     description:
-      "Built chatting app where users can do group and private chats with image sending functionality.",
-    tags: ["Python","Django", "Channels","Websocket", "PostgreSQL"],
-    imageUrl: chat_web,
-    link:"https://chat-web-agjq.onrender.com/"
+      "Built Ielts Speaking mock test AI app where users can practice their speaking test with AI examiner.",
+    tags: ["Django", "Next js", "llama", "Openrouter", "Deepgram"],
+    imageUrl: ielts,
+    link:"https://ielts-speaking-test-ai.vercel.app/"
   },
   {
     title: "Food Recipe Api",
@@ -95,6 +95,7 @@ export const skillsData = [
   "Django",
   "Django REST Framework",
   "Websocket",
+  "AI",
   "SQL",
   "NoSQL",
   "JavaScript",
